@@ -8,4 +8,4 @@ if (numeroUsuario == numeroSecreto) {
 }*/
 
 alert('Hola Mundo');
-prompt("Me indicas un numero por favor:");
+let numeroUsuario = prompt("Me indicas un numero por favor:");

@@ -74,7 +74,7 @@ if (edad >= 18) {
   console.log("Eres menor de edad.");
 }
 */
-alert('Bienvenido al juego del número secreto');
+/*alert('Bienvenido al juego del número secreto');
 let intento = prompt('Elige un número entre 1 y 10');
 
 let numeroSecreto = 4;
@@ -85,4 +85,13 @@ if (intento  == numeroSecreto) {
 } else {
     alert('El número secreto era ' + numeroSecreto);
     alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
+}*/
+const numero = prompt("Introduce un número:");
+
+if (numero > 0) {
+  console.log("El número es positivo");
+} else if (numero < 0) {
+  console.log("El número es negativo");
+} else {
+  console.log("El número es cero");
 }

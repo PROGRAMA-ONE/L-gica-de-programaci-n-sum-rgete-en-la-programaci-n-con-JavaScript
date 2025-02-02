@@ -95,7 +95,8 @@ if (numero > 0) {
 } else {
   console.log("El número es cero");
 }*/
-alert('Bienvenido al juego del número secreto');
+
+/*alert('Bienvenido al juego del número secreto');
 
 // Agrega un console.log para verificar el valor de "intento" después de la entrada del usuario
 let intento = prompt('Elige un número entre 1 y 10');
@@ -113,3 +114,36 @@ if (intento == numeroSecreto) {
     console.log('Valor del número secreto:', numeroSecreto);
     alert('El número secreto era ' + numeroSecreto);
 }
+*/
+
+let diaDeLaSemana = prompt("Qué día de la semana es:");
+console.log(diaDeLaSemana);
+if (diaDeLaSemana == "Sábado" || diaDeLaSemana == "Domingo") {
+  alert("¡Buen fin de semana!");
+} else {
+  alert("¡Buena semana!");
+}
+
+let numero = prompt("Introduce un número:");
+console.log(numero);
+if (numero > 0) {
+  alert('Número positivo');
+} else if (numero < 0) {
+  alert('Número negativo');
+} else {
+  alert('El número es cero');
+}
+
+let puntuacion = 105;
+console.log(puntuacion);
+if (puntuacion >= 100) {
+    console.log('¡Enhorabuena, has ganado!');
+} else {
+    console.log('Inténtalo de nuevo para ganar.');
+}
+
+let saldoCuenta = 100;
+alert(`Tu saldo es de ${saldoCuenta}`);
+
+let nombreUsuario = prompt("Ingresa tu nombre de usuario:");
+alert(`Bienvenido ${nombreUsuario}`);

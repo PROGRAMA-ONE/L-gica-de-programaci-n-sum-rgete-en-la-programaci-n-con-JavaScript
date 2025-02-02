@@ -149,6 +149,7 @@ let nombreUsuario = prompt("Ingresa tu nombre de usuario:");
 alert(`Bienvenido ${nombreUsuario}`);
 */
 
+/*
 let numeroSecreto = 5;
 let numeroUsuario = 0;
 let intentos = 1;
@@ -163,7 +164,7 @@ while (numeroUsuario != numeroSecreto) {
 Este código realiza 
 la comparación.
 */
-
+/*
   if (numeroUsuario == numeroSecreto) {
     //Acertamos, fue verdadera la condición.
     alert(`Acertaste, el número es: ${numeroUsuario}. Lo hiciste en ${intentos} ${palabraVeces}`);
@@ -179,4 +180,11 @@ la comparación.
     //La condición no se cumplió.
     //alert('Lo siento, no acertaste el número');
   }
+}*/
+
+let contador = 1;
+
+while (contador < 4) {
+  console.log('Ejecutando la iteración ' + contador);
+  contador = contador + 1;
 }

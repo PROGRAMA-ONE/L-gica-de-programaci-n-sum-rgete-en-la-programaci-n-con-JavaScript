@@ -65,7 +65,7 @@ if (numeroUsuario == numeroSecreto) {
     alert('Lo siento, no acertaste el número');
 }
 */
-
+/*
 let edad = prompt("Ingrese su edad:");
 
 if (edad >= 18) {
@@ -73,4 +73,16 @@ if (edad >= 18) {
 } else {
   console.log("Eres menor de edad.");
 }
+*/
+alert('Bienvenido al juego del número secreto');
+let intento = prompt('Elige un número entre 1 y 10');
 
+let numeroSecreto = 4;
+
+console.log(intento  == numeroSecreto);
+if (intento  == numeroSecreto) {
+    alert('Acertaste');
+} else {
+    alert('El número secreto era ' + numeroSecreto);
+    alert('El número secreto era ' + numeroSecreto + ', pero elegiste ' + intento);
+}

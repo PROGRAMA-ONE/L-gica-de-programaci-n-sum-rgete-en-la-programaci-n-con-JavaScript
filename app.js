@@ -59,12 +59,9 @@ la comparación.
 
 if (numeroUsuario == numeroSecreto) {
     //Acertamos, fue verdadera la condición.
-    alert('Acertaste el numero');
+    alert('Acertaste, el número es: numeroUsuario');
 }else{
     //La condición no se cumplió.
     alert('Lo siento, no acertaste el número');
 }
 
-if (numeroUsuario == numeroSecreto) {
-    alert('Acertaste el numero');
-}

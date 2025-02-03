@@ -191,6 +191,7 @@ while (contador < 4) {
 }
 */
 
+/*
 let cantidadNumeros = prompt('Ingrese la cantidad de números para el cálculo del promedio:');
 let suma = 0;
 let contador = cantidadNumeros;
@@ -205,3 +206,34 @@ while(contador > 0){
 let promedio = suma / cantidadNumeros;
 
 console.log(promedio);
+*/
+
+/*let contador = 1;
+while (contador <= 10) {
+console.log(contador);
+contador++;
+}
+*/
+/*
+let contador = 10;
+while (contador >= 0) {
+console.log(contador);
+contador--;
+}
+*/
+/*
+let numeroMaximo = prompt("Ingresa un número para la cuenta regresiva:");
+
+while (numeroMaximo >= 0) {
+console.log(numeroMaximo);
+numeroMaximo--;
+}
+*/
+
+let numeroMaximo = prompt("Ingresa un número para la cuenta progresiva:");;
+let contador = 0;
+
+while (contador <= numeroMaximo) {
+console.log(contador);
+contador++
+}

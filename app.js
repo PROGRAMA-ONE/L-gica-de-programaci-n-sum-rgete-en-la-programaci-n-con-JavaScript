@@ -115,7 +115,7 @@ if (intento == numeroSecreto) {
     alert('El número secreto era ' + numeroSecreto);
 }
 */
-
+/*
 let diaDeLaSemana = prompt("Qué día de la semana es:");
 console.log(diaDeLaSemana);
 if (diaDeLaSemana == "Sábado" || diaDeLaSemana == "Domingo") {
@@ -147,3 +147,93 @@ alert(`Tu saldo es de ${saldoCuenta}`);
 
 let nombreUsuario = prompt("Ingresa tu nombre de usuario:");
 alert(`Bienvenido ${nombreUsuario}`);
+*/
+
+/*
+let numeroSecreto = 5;
+let numeroUsuario = 0;
+let intentos = 1;
+let palabraVeces = 'vez'
+
+while (numeroUsuario != numeroSecreto) {
+  numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
+
+  console.log(numeroUsuario);
+
+/*
+Este código realiza 
+la comparación.
+*/
+/*
+  if (numeroUsuario == numeroSecreto) {
+    //Acertamos, fue verdadera la condición.
+    alert(`Acertaste, el número es: ${numeroUsuario}. Lo hiciste en ${intentos} ${palabraVeces}`);
+  } else {
+    if (numeroUsuario > numeroSecreto) {
+      alert("El número secreto es menor");
+    } else {
+      alert("El número secreto es mayor");
+    }
+    //incrementamos el contador cuando no acierta
+    intentos = intentos + 1;
+    palabraVeces = 'veces';
+    //La condición no se cumplió.
+    //alert('Lo siento, no acertaste el número');
+  }
+}*/
+
+/*
+let contador = 1;
+
+while (contador < 4) {
+  console.log('Ejecutando la iteración ' + contador);
+  contador = contador + 1;
+}
+*/
+
+/*
+let cantidadNumeros = prompt('Ingrese la cantidad de números para el cálculo del promedio:');
+let suma = 0;
+let contador = cantidadNumeros;
+
+while(contador > 0){
+    let numero = parseInt(prompt('Ingrese el numero:'));
+    contador--;
+    suma += numero;
+    alert(`Numero ${numero}, Suma ${suma}, Contador ${contador}`);
+}
+
+let promedio = suma / cantidadNumeros;
+
+console.log(promedio);
+*/
+
+/*let contador = 1;
+while (contador <= 10) {
+console.log(contador);
+contador++;
+}
+*/
+/*
+let contador = 10;
+while (contador >= 0) {
+console.log(contador);
+contador--;
+}
+*/
+/*
+let numeroMaximo = prompt("Ingresa un número para la cuenta regresiva:");
+
+while (numeroMaximo >= 0) {
+console.log(numeroMaximo);
+numeroMaximo--;
+}
+*/
+
+let numeroMaximo = prompt("Ingresa un número para la cuenta progresiva:");;
+let contador = 0;
+
+while (contador <= numeroMaximo) {
+console.log(contador);
+contador++
+}

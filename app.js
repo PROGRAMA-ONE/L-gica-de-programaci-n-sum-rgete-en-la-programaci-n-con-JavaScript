@@ -238,7 +238,7 @@ console.log(contador);
 contador++
 }
 */
-
+/*
 let numeroSecreto = 5;
 let numeroUsuario = 0;
 let intentos = 1;
@@ -247,10 +247,13 @@ let palabraVeces = 'vez'
 while (numeroUsuario != numeroSecreto) {
   numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor:");
   console.log(numeroUsuario);
+
+*/
 /*
 Este código realiza 
 la comparación.
 */
+/*
   if (numeroUsuario == numeroSecreto) {
     //Acertamos, fue verdadera la condición.
     alert(`Acertaste, el número es: ${numeroUsuario}. Lo hiciste en ${intentos} ${palabraVeces}`);
@@ -269,5 +272,29 @@ la comparación.
     }
     //La condición no se cumplió.
     //alert('Lo siento, no acertaste el número');
+  }
+}
+*/
+/*
+let numeroSecreto = Math.floor(Math.random() * 10);
+let intentos = 0;
+console.log(numeroSecreto);
+while (intentos < 5) {
+  let intento = parseInt(prompt("Ingrese un número del 0 al 9:"));
+  intentos++;
+  if (intento == numeroSecreto) {
+    alert(`¡Eso es! Descubriste el número secreto ${numeroSecreto}`);
+    break;
+  }
+}*/
+
+let numeroSecreto = Math.floor(Math.random() * 10);
+console.log(numeroSecreto);
+for (let intentos = 0; intentos < 5; intentos++) {
+  console.log(intentos);
+  let intento = parseInt(prompt("Ingrese un número del 0 al 9:"));
+  if (intento == numeroSecreto) {
+    alert(`¡Eso es! Descubriste el número secreto ${numeroSecreto}`);
+    break;
   }
 }
